@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marocimmo Assessment</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header-container"> 
+     <div id="logo-container">
+        <img src="resources/logo.png" alt="logo" id="logo"/>
+     </div>
+     <div id="navigation-container">
+        <p class="nav-buttons">Home</p>
+        <p class="nav-buttons">Rent</p>
+        <p class="nav-buttons">Buy</p>
+        <p class="nav-buttons">Holidays</p>
+        <p class="nav-buttons">Blog</p>
+     </div>
+     <div id="header-buttons-container">
+        <div id="drop-down">
+            <p>EN</p>
+        <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon>
+        </div>
+        <button class="pill-button">Add Property</button>
+        <button class="pill-button white-pill-button">Login</button>
+     </div>
+    </div>
+    <div id="content1-container">
+        <img id="content1-image" src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80">
+        <div id="content1-card-container">
+        <h1>Find Your Future Home</h1>
+        <div id="card">
+            <div id="card-upper-buttons-container">
+            <button class="small-rect-buttons">Buy</button>
+            <button class="small-rect-buttons">Rent</button>
+            </div>
+            <div id="card-middle-buttons-container">
+                <button class="large-drop-down"><p>City</p> <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon></button>
+                <button class="medium-drop-down"><p>Property type</p> <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon></button>
+                <button class="medium-drop-down"><p>Bed & baths</p> <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon></button>
+                <button class="medium-drop-down"><p>Price</p> <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon></button>
+                <div id="card-search-icon"><ion-icon name="search-outline" id="search-icon"></ion-icon></div>
+            </div>
+            <div id="card-bottom-buttons-container">
+                <div id="show-commercial-container">
+                <input type="radio" id="card-radio-button" name="age" value="30">
+                <label for="card-radio-button">Show commercial properties</label>
+                </div>
+                <div id="show-more-search-container">
+                <div>Show more search options</div>
+                <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="contents-main-container">
+    <div id="content2-container">
+        <h3>Search for a property to rent or purchase</h3>
+        <div id="property-cards-container">
+            <div class="property-cards">
+                <img class="property-cards-images" src="https://s3-alpha-sig.figma.com/img/6208/4e75/a67fb2377fade81990a5d73b96bda102?Expires=1672012800&Signature=S0tlSsMHKti1ia-iPe4uoLIBSIOWqRWFD5XkNF1ZU1HyeVnieM95kSd1kgBheQtTX3wxB-VBdJKjF0CvnviOW6MTupC2~0rqMl3L4qjXtzbXRAHr8YnPja0Fg8atZ~QrEaD0agBNzITIC~MOxGe5zpHa18kBWYZT-fIEwdItQEESnG6sE73Ee9SJMCM-Y1-ywQXU8F1fP225fskPMTKXzBKm5LGoT-0FMQbYpiJ38mVc12N8n2mCa1pQ9qSleBFoi5Q~3LDGk9Md~hQqEH~MIPANnbhbX0jtyozQJPr1OtK~lsyLQXIXbRGeN0oDL1TXp-WSh8Pd2kik76WtqRasaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="cards-bottom-text-container">
+                <p class="cards-property-bottom-text">New Homes in the Market</p>
+                <div class="circle-button"> <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon></div>
+                </div>
+            </div>
+            <div class="property-cards">
+                <img class="property-cards-images" src="https://s3-alpha-sig.figma.com/img/29a7/509a/48b13344599fd1cd9f1768fbda809930?Expires=1672012800&Signature=J0jcQ0FabUh1ntfwpT-35D8sn-3VGsfrEDrdEoJ~SqGgLSDdsh8MvbSV5ieaAQ8SfHnHV2FaHPaFFmFqnANpQgDZJJ-TPUHT1iSjtIL-axzSvUA7fDqk~kDfBAizhI4u0TR0Eelp80cLQuELQXj0MIHkyAdWVd3PHtvBKTHTP8MUZlkeOqgHBuxmALp9lUKBiax-Hmx6JesxQIAWs13tbrxQ6V8mvpZfOtakPaIS7lTUPeECuOmJL2JFIRUky3biqRWzTKZJlXnaY2FrFavioIvV0VdJjDPXNqhBdILAZt1fN~1wpPKLt6Y35fFKU1O~I~fG3b8x5p4ZQGwMPH7J1w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="cards-bottom-text-container">
+                <p class="cards-property-bottom-text">Propperties For Sale</p>
+                <div class="circle-button"> <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon></div>
+                </div>
+            </div>
+            <div class="property-cards">
+                <img class="property-cards-images" src="https://s3-alpha-sig.figma.com/img/32f1/260e/52777cb6ced61ff73f44bca4455f95e4?Expires=1672012800&Signature=qLBJ8bIHVqbPzFuydA2ZClEOGuQDLdrwR7llLQh9qdGdRCOR7ObE6Y7rTLMptOYgJSW8oUumoXr6fAmiHm6BHFwDtHxLh9RHzVCnLOQYWFeFaSFEMeRI1O-r-0lBLLYqJID1H4HFHWBUfTZh0Id7ORFJqI8Pbqzil6lMAt4pfLTyrwV9M~hH1oLcycj5-1fEeDUlxsToN8VGss8M912kIbmAAwXlwiDK3~hjc9gFq9Z8~OGXKdeMXeocWalHd2iQh-Fd-bd0zS7fEnVma66ri6bQmgdNRKg6RJmaHN~7y1~OZv-5jZx~m0y7Yd3HG43L2yVa05XSwKF~Ry3LczzHow__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="cards-bottom-text-container">
+                <p class="cards-property-bottom-text">Properties For Rent</p>
+                <div class="circle-button"> <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon></div>
+                </div>
+            </div>
+            <div class="property-cards">
+                <img class="property-cards-images" src="https://s3-alpha-sig.figma.com/img/a688/1827/b7fc99c49aa971bb0c32951d0f11ecc9?Expires=1672012800&Signature=Y83FtbZ9m4cxOLFnVP50xJuCuwBwYM51i5boEFKYC3WEfIGJcSZOvnEuzDGJZMTyhGgeHRV9gA8tasLSk3fp4c2dWv~iWskGFneZylt2GQxqwxaXBqOYIaQkZFVh-PkYIKUBHMM8b8Ry4mekI7NpGM4zInL2PC9OgZ7Ct2VxXdlG7R1bSeoj4a1kLbTOMEOouPjy8Hq81AbbpUYYgjoWjswhme-1FmxirlLOG0n9l6yM8wba3moQvjnVFq4oYd3BV15KzmRlD5rDHWG1aTk0aa33dK5V7KR7pC8j74NcOd-iKTiGwBWFm8OVho3Bea4cQjYo2n4zJkmSivnZ3qeouw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="cards-bottom-text-container">
+                <p class="cards-property-bottom-text">Holiday Rentals</p>
+                <div class="circle-button"> <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content3-container">
+        <h3>Find the best property around the country</h3>
+        <div id="content3-card">
+            <div id="content3-card-upper-buttons">
+                <button class="medium-buttons">For Sale</button>
+                <button class="medium-buttons">For Rent</button>
+                <button class="medium-buttons">Holiday Rental</button>
+            </div>
+            <div id="content3-tabs">
+                <div class="tabs-style tablink" id="tab-1" onclick="changeTabs(event)">Appartments</div>
+                <div class="tabs-style tablink" id="tab-2" onclick="changeTabs(event)">Land</div>
+                <div class="tabs-style tablink" id="tab-3" onclick="changeTabs(event)">Villas/Luxury Homes</div>
+                <div class="tabs-style tablink" id="tab-4" onclick="changeTabs(event)">Houses</div>
+                <div class="tabs-style tablink" id="tab-5" onclick="changeTabs(event)">commercial Property</div>
+                <div class="tabs-style tablink" id="tab-6" onclick="changeTabs(event)">Riads</div>
+                <div class="tabs-style tablink" id="tab-7" onclick="changeTabs(event)">Office Space</div>
+            </div>
+            <div id="chips">
+                <div class="chips-styles">
+                    <p>Casablanca</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Marraketch</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles"> 
+                    <p>Tanger</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Rabat</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Agadir</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Salé</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Fès</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Temara</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Kénitra</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+                <div class="chips-styles">
+                    <p>Mohammédia</p>
+                    <ion-icon name="chevron-forward-outline" class="forward-arrow"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content4-container">
+        <h3>Blog and recent posts</h3>
+        <div id="content4-cards-container">
+            <div class="content4-cards">
+                <img class="content4-card-image" src="https://s3-alpha-sig.figma.com/img/f2d4/c537/55bb18999d0cb422bd70a8ceeeb93438?Expires=1672012800&Signature=evlT8-IdZAaE9M~-C5uk4L8aTi8QOKlbIb0SCzakpkkUIuvcgApuFPI2xjBpgj6lLtUyf~hGD-g3AqwFNJUyUZh9qYGkshxEoBsQym9Ft3LjNukkDm8SSpykxmi7M7qt50BWjKtLOMrAhpg-NEYt06dly0w~DTBPlnB3Uaad-dzlP4Fa4rzxxFfd3DPeReGBHGYIHRmNMmR~LoO9F-0rm27Q8I~iPzyENx2AZ7GUgCzFKSaMm7N5mzmS60zHKMDjR6bniBrO8b0QIJMrE2BPPMYSM9PT9Iv1VAT3P8POgTt0F2ipYGUkEQTiVsbBwT9xwDsafE56kRlh8K3fHw1s7Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="content4-info-container">
+                <div class="content4-upper-text">How to take out loan for property purchase</div>
+                <div class="date">12/9/2022</div>
+                <div class="content4-info">Taking out a loan to purchase a property in Morocco is actually easier than you would think, it takes only few steps to ...</div>
+                <button class="read-more-button">Read More</button>
+            </div>
+            </div>
+            <div class="content4-cards">
+                <img class="content4-card-image" src="https://s3-alpha-sig.figma.com/img/7cbd/1cbd/30993032b794490e44ec6f4785062829?Expires=1672012800&Signature=gLMl7VwkDuLXJ0MYL5hYV5L9lInwAi~WnCKyCJcKvPw5RQQFPPe18DInQlKYT~ilekJuINP22AMSt0kASVZBZEXYO3bjlEW1MdX1IwX3ejWHbcKv4A5uNPFrUD8x9ITmRUfcTW9Dd5QvXAA0jCTXY6NSZ2FCbadOagWiGhO203zwiY-SkaBBZ1IhLHYeK9gazDclssMjRl1xTe4XbpfTfuGdTT5NfRqiKmE2ocfucbUILHP0IcLZQpVRuQyGKsky9g6zY5oJxem4HiI7CmkaczIfgYc-R8zxDS16XKJOvSqLmPdlicIUyfU3JUPte2ftl-hPdp1VNfeFP-v~nXNI-g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="content4-info-container">
+                <div class="content4-upper-text">Buying a property: The ultimate checklist</div>
+                <div class="date">11/28/2022</div>
+                <div class="content4-info">Buying a home is a financial investment of a lifetime. There is a lot to think about, so it is useful to have a checkli...</div>
+                <button class="read-more-button">Read More</button>
+            </div>
+            </div>
+            <div class="content4-cards">
+                <img class="content4-card-image" src="https://s3-alpha-sig.figma.com/img/ea88/345d/f84a8fa6a45b43de7b5e2176ced407fb?Expires=1672012800&Signature=SU4nvHARoxl56~nEOOTtSN3hDyJoStxPnVPo1LAYslruqw0wdcikBAQw-T7itB9rt40YjAti7TjH09c6Fiu5bP-sK7tvJl-c4j1UhcnuhKvqPRa~Jyq9ZhzX9O8mI48Mfw2GhHdm~L5IBiM0DGMpTkYRm5h9fvxem4c-w1ftRlECa9FBZpq00m8sI2rephHjreMx2bueB6L8RGCUdu3y4z93kj~2wCy247YZiZ5hnLdEmoh9cWNihe5ZdSHreFzOBIJeGMM~lnwxfWIp1fbHYBuuMUPoF88WFHUceTuTW~scz71BvYk1oMU8U7GWVs4WzltSQpQoxQAqH55OGJHQug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="content4-info-container">
+                <div class="content4-upper-text">Is it easy to buy property in Morocco?</div>
+                <div class="date">11/2/2022</div>
+                <div class="content4-info">Investing in luxury real estate in Marrakesh can be attractive in many ways, as the Moroccan red city has ...</div>
+                <button class="read-more-button">Read More</button>
+            </div>
+            </div>
+            <div class="content4-cards">
+                <img class="content4-card-image" src="https://s3-alpha-sig.figma.com/img/2fe4/eed6/43352a765aecbf6dede9e2804527fb34?Expires=1672012800&Signature=gqK3TAIsobaFxIggerpm~KwJi4vkPuiHnre3e9TbLB3BEt7~xQGo1hXNMDwKToftMEMcVqdlQnkRIxzBDyE5ZKNPfdug8YZoJ4tLrX6OicJVCKlIrUbfj5uBRq~h4yDLNwcyER9a13w~p2dkl6k5QJ3WCpV5kWvl2647Oh0tmY~q2uq6FUX6gJIhJ5pFUHkxYJzzbwJ-5k~yRykD3uWorkpdhcJEDB16MiuMIHRcObWM-66N7r838SovMYB1tVg6qZI3wNuiW4hrSlrce0VHWhuV3WUshSa~6tgZf8fsVOh6Pv3YSS3sGusc4PUAJdWa-oQl-gWjHP48edzeUql06g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"/>
+                <div class="content4-info-container">
+                <div class="content4-upper-text">Getting a Mortgage in Morocco and how to do it</div>
+                <div class="date">10/18/2022</div>
+                <div class="content4-info">Many people wonder if they can get a mortgage in Morocco to buy a property in the country. It is not uncommon to ...</div>
+                <button class="read-more-button">Read More</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer-main-contents-container">
+        <div id="footer-upper-contents">
+            <h4>MAROCIMMO</h4>
+            <div id="footer-icons-container">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>   
+                <ion-icon name="logo-twitter"></ion-icon>   
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+        </div>
+        <div id="footer-middle-contents-container">
+            <p class="footer-navigation">Home</p>
+            <p class="footer-navigation">Rent</p>
+            <p class="footer-navigation">Buy</p>
+            <p class="footer-navigation">Holidays</p>
+            <p class="footer-navigation">Blog</p>
+            <p class="footer-navigation">Add property</p>
+            <p class="footer-navigation">Who are we?</p>
+            <p class="footer-navigation">Contact Us</p>
+            <p class="footer-navigation">FAQ's</p>
+            <p class="footer-navigation">Data protection</p>
+            <p class="footer-navigation">Terms of use</p>
+            <p class="footer-navigation">MAD <ion-icon name="chevron-down-outline" id="drop-down-icon"></ion-icon></p>
+        </div>
+    <div id="copyright">
+        <div>© 2022 Marocimmo - All rights reserved</div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="JS/tabs.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
